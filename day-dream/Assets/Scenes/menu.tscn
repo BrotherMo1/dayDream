@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://b831les42a7nl"]
+[gd_scene load_steps=4 format=3 uid="uid://ba5xnscnnbqi"]
 
 [ext_resource type="FontFile" uid="uid://d0aa0n6jevuyc" path="res://Assets/font/Jacquard12-Regular.ttf" id="1_pbfds"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pbfds"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8t58v"]
+bg_color = Color(0.7521797, 0.489276, 0.7697539, 1)
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -35,26 +40,42 @@ anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
 offset_left = 1.0
-offset_top = -101.0
+offset_top = -165.0
 offset_right = 301.0
+offset_bottom = -1.0
 grow_vertical = 0
 theme_override_constants/separation = 31
 
 [node name="Start" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_focus_color = Color(0, 0, 0, 0)
+theme_override_colors/font_hover_color = Color(0.6955572, 0.91173995, 0.9269144, 1)
 theme_override_fonts/font = ExtResource("1_pbfds")
 theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxEmpty_pbfds")
+theme_override_styles/hover = SubResource("StyleBoxFlat_8t58v")
 text = "Start"
+alignment = 0
 
 [node name="Credits" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_focus_color = Color(0, 0, 0, 0)
+theme_override_colors/font_hover_color = Color(0.6955572, 0.91173995, 0.9269144, 1)
 theme_override_fonts/font = ExtResource("1_pbfds")
 theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxEmpty_pbfds")
+theme_override_styles/hover = SubResource("StyleBoxFlat_8t58v")
 text = "Credits"
+alignment = 0
 
 [node name="Exit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_focus_color = Color(0, 0, 0, 0)
+theme_override_colors/font_hover_color = Color(0.6955572, 0.91173995, 0.9269144, 1)
 theme_override_fonts/font = ExtResource("1_pbfds")
 theme_override_font_sizes/font_size = 25
+theme_override_styles/normal = SubResource("StyleBoxEmpty_pbfds")
+theme_override_styles/hover = SubResource("StyleBoxFlat_8t58v")
 text = "Exits
 "
+alignment = 0
