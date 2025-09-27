@@ -17,3 +17,10 @@ config/icon="res://icon.svg"
 [dotnet]
 
 project/assembly_name="dayDream"
+
+[input]
+
+Right_move={
+"deadzone": 0.2,
+"events": [null]
+}
