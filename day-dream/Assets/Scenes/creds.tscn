@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://h17k6wqo8ehs"]
+[gd_scene load_steps=0 format=3 uid="uid://h17k6wqo8ehs"]
 
 [node name="Creds" type="Control"]
 layout_mode = 3
