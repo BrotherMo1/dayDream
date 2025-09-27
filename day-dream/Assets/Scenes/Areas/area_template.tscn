@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cqpvq8fvb4hmy"]
+[gd_scene load_steps=5 format=3 uid="uid://cqpvq8fvb4hmy"]
 
 [ext_resource type="Texture2D" uid="uid://dqvy2xskl51hb" path="res://Assets/Sprites/tiles/tiles_1.png" id="1_787d4"]
+[ext_resource type="PackedScene" uid="uid://1oqqjamxsw1e" path="res://Assets/Scenes/Areas/player.tscn" id="2_rhrxp"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rhrxp"]
 texture = ExtResource("1_787d4")
@@ -96,3 +97,6 @@ sources/0 = SubResource("TileSetAtlasSource_rhrxp")
 tile_set = SubResource("TileSet_4hgrk")
 format = 2
 layer_0/tile_data = PackedInt32Array(65532, 65536, 0, 65533, 65536, 0, 65534, 65536, 0, 65535, 65536, 0, 0, 65536, 0, 1, 65536, 0, 2, 65536, 0, 3, 65536, 0, 4, 65536, 0, 5, 65536, 0, 6, 65536, 0, 7, 65536, 0, -65529, 196608, 1, -196601, 196608, 1, -262137, 196608, 0, -131065, 196608, 1, -65530, 196608, 1, -131066, 196608, 1, -65531, 196608, 1, -131067, 196608, 0, -196602, 196608, 0, -65532, 196608, 0)
+
+[node name="Player" parent="." instance=ExtResource("2_rhrxp")]
+position = Vector2(0, -8)
