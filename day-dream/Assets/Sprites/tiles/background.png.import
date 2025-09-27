@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://uk38lvs5ejq4"
-path="res://.godot/imported/back-walls.png-7a213f475a0d7a006b82fa3a474f3cb8.ctex"
+uid="uid://dnlj4gvci1d3n"
+path="res://.godot/imported/background.png-7428d24556796c132da393f3181f05b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/misc/Legacy Collection/Assets/Environments/caverns-files-web/layers/back-walls.png"
-dest_files=["res://.godot/imported/back-walls.png-7a213f475a0d7a006b82fa3a474f3cb8.ctex"]
+source_file="res://Assets/Sprites/tiles/background.png"
+dest_files=["res://.godot/imported/background.png-7428d24556796c132da393f3181f05b0.ctex"]
 
 [params]
 
