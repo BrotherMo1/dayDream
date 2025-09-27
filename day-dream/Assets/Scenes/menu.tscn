@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://ba5xnscnnbqi"]
+[gd_scene load_steps=5 format=3 uid="uid://cimenfkh3p2bi"]
 
 [ext_resource type="FontFile" uid="uid://d0aa0n6jevuyc" path="res://Assets/font/Jacquard12-Regular.ttf" id="1_pbfds"]
+[ext_resource type="Texture2D" uid="uid://cclc45ds2oxjx" path="res://icon.svg" id="2_8t58v"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pbfds"]
 
@@ -14,6 +15,15 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="MenuBackground" type="Parallax2D" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="MenuBackground"]
+position = Vector2(-5, -1)
+
+[node name="Sprite2D" type="Sprite2D" parent="MenuBackground/ParallaxLayer"]
+position = Vector2(70, 58)
+texture = ExtResource("2_8t58v")
 
 [node name="Title" type="Label" parent="."]
 layout_mode = 1
